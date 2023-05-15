@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+/* Header section */
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+ul li{
+    font-size: 3vmin;
+    list-style: none;
+    color: white;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+.main-img{
+    position: relative;
+    bottom: 200px;
+}
+.logo-img{
+    height: 50px;
+}
+.shop-btn{
+    height: 50px;
+}
+.shop-btn button{
+    background-color: rgb(35, 33, 33);
+    padding: 10px 50px;
+    color: rgb(245, 235, 235);
+    border: 1px solid rgb(35, 33, 33);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.shop-btn button:hover{
+    font-weight: 400;
+    border: 1px solid white;
+}
+
+/* on-ear */
+head{
+    position: relative;
+}
+.on-ear{
+    position: absolute;
+    left: 700px;
+    top: 200px;
+}
+.on-ear h2,h5,p,h6,h4{
+    color: white;
+}
+.on-ear{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.on-ear-addbag{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(52, 49, 49);
+    width: 250px;
+    border-radius: 5px;
+    padding: 15px 15px;
+}
+.on-ear-addbag h6{
+    font-size: 15px;
+    font-weight: 100;
+}
+.on-ear-addbag h4{
+    font-size: 20px;
+}
+
+
+/* Brand Line */
+
+.brand-line{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Spec */
+
+.spec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.specs-data{
+    display: flex;
+    gap: 50px;
+}
+.left-spec{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Batte,.load{
+    position: relative;
+    right: 50px;
+}
+.spec-logo img{
+    width: 120%;
+}
+.right-spec img{
+    max-width: 100%;
+}
+.h5-light{
+    font-size: 20px;
+}
+.h6-light{
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+/* Case */
+
+.case{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 50px;
+    justify-content: center;
+} 
+
+.case-logo{
+    margin-left: 200px;
+}
+.case-logo img{
+    width: 70%;
+}
+.case-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+} 
+
+.right-data{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.right-data{
+    font-size: 3vmin;
+}
+.case-logo img{
+    margin: 0px auto;
+}
+
+.case-btn button{
+    background-color: rgb(43, 41, 41);
+    border: 1px solid rgb(35, 33, 33);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 5px;
+}
+
+/* Buy Now Section */
+
+.immerse{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    background-color: rgb(32, 29, 29);
+    border-radius: 10px;
+    padding: 20px 100px;
+}
+
+.left-immerse{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 25px;
+}
+.left-immerse h5{
+    font-size: 25px;
+}
+.left-immerse h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(142, 137, 137);
+}
+.buy-now button{
+    display: flex;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Earphone line */
+
+.choose-pic{
+    text-align: center;
+}
+.earphone-series{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+}
+.line-one{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.line-two{
+    display: flex;
+    gap: 100px;
+    justify-content: start;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+/* black */
+.black{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 15px; */
+    background-color: rgb(32, 29, 29);
+    color: white;
+    width: 220px;
+    border-radius: 15px;
+    /* position: absolute; */
+    height: 200px;
+}
+
+.black-earpho img{
+    position: relative;
+    bottom: 50px;
+}
+.black-buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.blackbg-shop{
+    background-color: black;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
+
+/* Red Black */
+.red{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 29, 29);
+    color: white;
+    width: 220px;
+    border-radius: 15px;
+    /* position: absolute; */
+    height: 200px;
+}
+
+.red-earpho img{
+    position: relative;
+    bottom: 30px;
+}
+.red-buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.redbg-shop{
+    background-color: black;
+    padding: 5px 7px;
+    border-radius: 5px;
+} 
+
+/* Night Black */
+.night-black{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 29, 29);
+    color: white;
+    width: 220px;
+    border-radius: 15px;
+    /* position: absolute; */
+    height: 200px;
+}
+
+.night-earpho img{
+    position: relative;
+    bottom: 30px;
+}
+.night-buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.blackbg-shop{
+    background-color: black;
+    padding: 5px 7px;
+    border-radius: 5px;
+} 
+
+/* Red Black */
+.blue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 29, 29);
+    color: white;
+    width: 220px;
+    border-radius: 15px;
+    /* position: absolute; */
+    height: 200px;
+}
+
+.blue-earpho img{
+    position: relative;
+    bottom: 30px;
+}
+.blue-buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.blackbg-shop{
+    background-color: black;
+    padding: 5px 7px;
+    border-radius: 5px;
+} 
+
+/* twil Black */
+.twil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 29, 29);
+    color: white;
+    width: 220px;
+    border-radius: 15px;
+    /* position: absolute; */
+    height: 200px;
+}
+
+.twil-earpho img{
+    position: relative;
+    bottom: 30px;
+}
+.twi-buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.blackbg-shop{
+    background-color: black;
+    padding: 5px 7px;
+    border-radius: 5px;
+} 
+
+/* Footer */
+
+/* Email */
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 35px 10px;
+    border-radius: 10px;
+}
+.email,input{
+    background-color: rgb(49, 47, 47);
+    height: 50px;
+    border: none;
+}
+.email input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+.email-btn{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    gap: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+.email-btn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
